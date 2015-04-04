@@ -4,7 +4,8 @@
   "description": "Simple App with Lob and Stripe",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "jshint --reporter node_modules/jshint-stylish/stylish.js src/ && jscs src/"
   },
   "repository": {
     "type": "git",
